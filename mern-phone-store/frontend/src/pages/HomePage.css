@@ -101,6 +101,9 @@
     text-align: center;
     width: 250px;
   }
+  .product-card:hover{
+    transform: scale(1.05);
+  }
   
   .product-card img {
     width: 100%;
@@ -136,6 +139,104 @@
     border-radius: 5px; /* Bo góc nhẹ */
     cursor: pointer;
     transition: background-color 0.3s ease;
+  }
+  .footer {
+    background-color: #222; /* Nền tối */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #f5a623;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover .social-icon {
+    transform: scale(1.2);
+  }
+  
+  .fab {
+    font-size: 32px;
+    color: white;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .fab:hover {
+    color: #f5a623;
+    transform: scale(1.2);
+  }
+  .product-page {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
   }
   
   
