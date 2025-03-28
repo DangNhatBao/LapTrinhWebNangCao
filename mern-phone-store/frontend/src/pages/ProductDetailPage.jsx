@@ -72,8 +72,8 @@ function ProductDetailPage() {
         </div>
         <div className="product-info">
           <h1>{product.name}</h1>
-          <p className="price">Giá: {product.price} VND</p>
-          <p className="description"><b>Thông tin sản phẩm:</b> <br />{product.description}</p>
+          <p className="price">{product.price} VND</p>
+          <p className="description"><b>Thông tin sản phẩm:</b><br /><br />{product.description}</p>
           <div className="buttons">
             <button className="buy-now" onClick={buyNow}>Mua ngay</button>
             <button className="add-to-cart" onClick={addToCart}>Thêm vào giỏ hàng</button>
