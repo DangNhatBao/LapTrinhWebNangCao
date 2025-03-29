@@ -72,7 +72,7 @@ function ProductDetailPage() {
         </div>
         <div className="product-info">
           <h1>{product.name}</h1>
-          <p className="price">{product.price} VND</p>
+          <p className="price">{product.price}</p>
           <p className="description"><b>Thông tin sản phẩm:</b><br /><br />{product.description}</p>
           <div className="buttons">
             <button className="buy-now" onClick={buyNow}>Mua ngay</button>

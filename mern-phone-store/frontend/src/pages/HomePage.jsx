@@ -65,8 +65,8 @@ function HomePage() {
               <div className="product-card" key={product._id}>
                 <img src={product.image} alt={product.name} />
                 <h3>{product.name}</h3>
-                <p>Giá: {product.price.toLocaleString()} VND</p>
-                <Link to={`/products/${product._id}`} className="btn">Mua ngay</Link>
+                <p>{product.price.toLocaleString()}</p>
+                <Link to={`/products/${product._id}`} className="btn">Xem chi tiết</Link>
               </div>
             ))
           ) : (
